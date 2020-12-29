@@ -1,0 +1,8 @@
+#spring:
+#  data:
+##    mongodb:
+##      uri: mongodb+srv://new_user:123454321@cluster0.2dhcx.mongodb.net/<dbname>?retryWrites=true&w=majority
+##      database: Quotes
+
+server:
+  port: 8080
