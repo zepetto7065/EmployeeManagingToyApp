@@ -30,7 +30,7 @@ class BoardComponent extends React.Component{
                     <tbody>
                         {
                             this.state.boards.map(
-                                users =>
+                                boards =>
                                 <tr key = {boards.id}>
                                     <td>{boards.title}</td>
                                     <td>{boards.content}</td>
@@ -44,4 +44,4 @@ class BoardComponent extends React.Component{
     }
 }
 
-export default UserComponent
+export default BoardComponent

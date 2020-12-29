@@ -10,6 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class BoardVO {
 
+    private long id;
     private String title;
     private String content;
 

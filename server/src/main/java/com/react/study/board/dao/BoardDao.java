@@ -13,6 +13,7 @@ public class BoardDao {
     public List<BoardVO> list() {
 
         BoardVO vo = new BoardVO();
+        vo.setId(1);
         vo.setTitle("제목입니다.");
         vo.setContent("내용입니다.");
 
