@@ -1,13 +1,13 @@
-import React from "react";
-import BoardComponent from './components/BoardComponent'
+import logo from './logo.svg';
+import './App.css';
+import ListEmployeeComponent from './components/ListEmployeeComponent';
 
-function App(){
-  return(
-    <div className="App">
-      <BoardComponent /> 
+function App() {
+  return (
+    <div className="container">
+      <ListEmployeeComponent />
     </div>
-  )
+  );
 }
 
 export default App;
-
