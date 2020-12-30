@@ -1,10 +1,10 @@
-package com.react.study.board;
+package com.user.admin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BoardApplicationTests {
+class AdminApplicationTests {
 
 	@Test
 	void contextLoads() {

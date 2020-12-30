@@ -1,13 +1,13 @@
-package com.react.study.board;
+package com.user.admin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BoardApplication {
+public class AdminApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BoardApplication.class, args);
+		SpringApplication.run(AdminApplication.class, args);
 	}
 
 }

@@ -1,8 +1,7 @@
-package com.react.study.board.controller;
+package com.user.admin.controller;
 
-import com.react.study.board.domain.BoardVO;
-import com.react.study.board.service.BoardService;
-import lombok.extern.slf4j.Slf4j;
+import com.user.admin.model.Employee;
+import com.user.admin.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,18 +10,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@Slf4j
 @CrossOrigin(origins = "http://localhost:3000")
-@RequestMapping("/board")
 @RestController
-public class BoardController {
+@RequestMapping("/api/v1")
+public class EmployeeController {
 
     @Autowired
-    private BoardService boardService;
+    private EmployeeRepository employeeRepository;
 
-    @GetMapping(value = "/list")
-    public List<BoardVO> getList(){
-        return boardService.list();
+    @GetMapping("/employees")
+    private List<Employee> getAllEmployees(){
+        return employeeRepository.findAll();
     }
+
 
 }
