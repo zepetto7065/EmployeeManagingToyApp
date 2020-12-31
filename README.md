@@ -16,7 +16,7 @@
   <img width="386" alt="스크린샷 2020-12-31 오후 8 56 05" src="https://user-images.githubusercontent.com/44112221/103409520-9b7b3a80-4baa-11eb-95a2-799631e30f0f.png">
 
   처음 진입시 axios를 이용하여 MySQL의 List Data를 스프링 서버와 연동.
-  Actiond 태그란에 의해 update, delete, detail 기능
+  Actiond 태그란에 의해 update, delete, detail 기능, Header와 Footer Component 추가
 
 # form #
 
