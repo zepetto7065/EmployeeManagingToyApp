@@ -15,6 +15,7 @@ export default class UpdateEmployeeComponent extends Component {
         this.changeLastNameHandler = this.changeLastNameHandler.bind(this);
         this.updateEmployee = this.updateEmployee.bind(this);
     }
+
     componentDidMount(){
         EmployeeService.getEmployeeById(this.state.id).then((res) =>{
             let employee = res.data;
@@ -29,7 +30,13 @@ export default class UpdateEmployeeComponent extends Component {
         e.preventDefault();
         let employee = {firstName : this.state.firstName, lastName : this.state.lastName, emailId: this.state.emailId};
         console.log('employee => '+ JSON.stringify(employee));
+        
+        EmployeeService.updateEmployee(employee, this.state.id).then(res => {
+            this.props.history.push('/employees');
+        });
     }    
+   
+   
     changeFirstNameHandler =(event) => {
         this.setState({firstName:event.target.value}); 
     }
