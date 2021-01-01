@@ -45,7 +45,7 @@ export default class ListEmployeeComponent extends Component {
             <div>
                 <h2 className="text-center">Employees List</h2>
                 <div className = "row">
-                    <button className="btn btn-primary" onClick={this.addEmployee}> Add Employee</button>
+                    <button className="btn btn-primary" onClick={this.addEmployee} style ={{marginBottom : "10px"}}> Add Employee</button>
                 </div>
                 <div className = "row">
                     <table className="table table-striped table-bordered">
