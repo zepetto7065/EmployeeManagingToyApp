@@ -1,10 +1,7 @@
 # ToyReactBoardApp
   React, JPA, Docker 연동을 공부하기 위한 토이 앱 입니다.
   CRUD를 이용한 직원 관리 시스템.
-
-## 현재 ##
-  프론트 (리엑트) - 서버사이드 (스프링) 연동
-
+  
 ## 목표 ##
   프론트단 Nginx를 기반으로 React 를 이용한 프론트 서버 구축, REST API를 통한 SpringBoot Server 및 HTTP 통신을 통한 Resouce 서버 구축
   DB는 MySQL과 JPA로 간단한 '직원 관리 시스템'을 만들 예정
