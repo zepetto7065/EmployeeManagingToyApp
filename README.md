@@ -1,4 +1,4 @@
-# ToyReactBoardApp
+# EmployeeManagingToyApp
   React, JPA, Docker 연동을 공부하기 위한 토이 앱 입니다.
   CRUD를 이용한 직원 관리 시스템.
   
