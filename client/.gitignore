@@ -24,6 +24,4 @@ yarn-error.log*
 
 public/
 README.md
-package-lock.json
-package.json
 .eslintcache
